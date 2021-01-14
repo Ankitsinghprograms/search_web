@@ -387,3 +387,17 @@ FUNCTIONS
 
 
 
+
+## A message that a update Version (0.0.2) is also coming soon 😄😄
+ 
+New websites that would be added in Version (0.0.2) are:-
+
+1. [GitHub](https://www.github.com) 
+
+Suggestions for more websites are welcome in pull request or issues 🤗🤗.
+
+
+
+
+
+
