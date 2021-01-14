@@ -68,7 +68,7 @@
 
 ```python
 from search_web import *
-pysearch.google_search("How to Search via pysearch module Python")
+pysearch.google_search("How to Search via search_web module Python")
 ```
 
 
