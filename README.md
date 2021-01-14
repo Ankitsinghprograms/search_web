@@ -50,7 +50,7 @@ FUNCTIONS
 
 * amazon_search(text)
 
-        Search on Amazon (https://www.amazon.com)
+        [Search on Amazon](https://www.amazon.com)
 
         Parameters
         -----------
@@ -59,7 +59,7 @@ FUNCTIONS
 
 + apple_search(text)
 
-        Search on Apple(https://www.apple.com/us)
+        [Search on Apple](https://www.apple.com/us)
 
 
         Parameters
@@ -68,7 +68,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
     bing_search(text)
-        Search on Bing (www.bing.com)
+    
+        [Search on Bing](www.bing.com)
 
         Parameters
         -----------
@@ -76,7 +77,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
 + cnn_search(text)
-        Search on CNN (https://edition.cnn.com)
+
+        [Search on CNN](https://edition.cnn.com)
 
         Parameters
         -----------
@@ -84,7 +86,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
 + craigslist_search(text)
-        Search on craigslist (https://kolkata.craigslist.org)
+
+        [Search on craigslist](https://kolkata.craigslist.org)
 
         Parameters
         -----------
