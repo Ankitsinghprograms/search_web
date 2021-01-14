@@ -61,7 +61,7 @@ FUNCTIONS
 
 + apple_search(text)
 
-        [Search on Apple](https://www.apple.com/us)
+   [Apple](https://www.apple.com/us)
 
 
         Parameters
@@ -71,7 +71,7 @@ FUNCTIONS
 
     bing_search(text)
     
-        [Search on Bing](www.bing.com)
+   [Bing](www.bing.com)
 
         Parameters
         -----------
@@ -80,7 +80,7 @@ FUNCTIONS
 
 + cnn_search(text)
 
-        [Search on CNN](https://edition.cnn.com)
+  [CNN](https://edition.cnn.com)
 
         Parameters
         -----------
@@ -89,7 +89,7 @@ FUNCTIONS
 
 + craigslist_search(text)
 
-        [Search on craigslist](https://kolkata.craigslist.org)
+   [craigslist](https://kolkata.craigslist.org)
 
         Parameters
         -----------
@@ -97,7 +97,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
 + ebay_search(text)
-        Search on Ebay (https://www.ebay.com)
+
+   [Ebay](https://www.ebay.com)
 
         Parameters
         -----------
@@ -105,7 +106,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
     espn_search(text)
-        Search on Espn (https://www.espn.in)
+    
+     [ESPN](https://www.espn.in)
 
         Parameters
         -----------
@@ -113,7 +115,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
     esty_search(text)
-        Search on Esty (https://www.etsy.c:om/in-en)
+    
+    [Esty](https://www.etsy.c:om/in-en)
 
         Parameters
         -----------
@@ -121,24 +124,27 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
 + facebook_search(text)
-        Search on Facebook (https://facebook.com)
+
+   [Facebook](https://facebook.com)
 
         Parameters
         -----------
 
         text:- The query which you want to search about (str)
 
-    google_search(text)
-        Search on Google (https://www.google.com)
+  +  google_search(text)
+    
+      [Google](https://www.google.com)
 
         Parameters
         -----------
 
         text:- The query which you want to search about (str)
 
-    headline_search(t
-ext)
-        Search on Headline (https://www.healthline.com)
+ +  ` headline_search(text) `
+
+
+    [Headline](https://www.healthline.com)
 
         Parameters
         -----------
