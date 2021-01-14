@@ -2,10 +2,10 @@
 
 
 
-##This module will Help You to Search on Different Websites like Google,Youtube,etc.
+## This module will Help You to Search on Different Websites like Google,Youtube,etc.
 
 
-###You can search on more than 25 websites very easily by just 2 lines of code.
+### You can search on more than 25 websites very easily by just 2 lines of code.
 
 
 Websites Supported:-
@@ -50,7 +50,7 @@ FUNCTIONS
 
 * amazon_search(text)
 
-		earch on amazon)[https://www.amazon.com]
+        Search on Amazon (https://www.amazon.com)
 
         Parameters
         -----------
