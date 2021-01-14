@@ -1,4 +1,4 @@
-* search_web
+# search_web
 
 
 
@@ -48,7 +48,7 @@ pysearch.google_search("How to Search via pysearch module Python")
 
 FUNCTIONS
 
-*amazon_search(text)
+* amazon_search(text)
 		Search on amazon (https://www.amazon.com)
 
         Parameters
@@ -56,7 +56,7 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
 
-+apple_search(text)
++ apple_search(text)
         Search on Apple (https://www.apple.com/us)
 
 
@@ -73,7 +73,7 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
 
-+cnn_search(text)
++ cnn_search(text)
         Search on CNN (https://edition.cnn.com)
 
         Parameters
@@ -81,7 +81,7 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
 
-+craigslist_search(text)
++ craigslist_search(text)
         Search on craigslist (https://kolkata.craigslist.org)
 
         Parameters
@@ -89,7 +89,7 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
 
-+ebay_search(text)
++ ebay_search(text)
         Search on Ebay (https://www.ebay.com)
 
         Parameters
@@ -113,7 +113,7 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
 
-+facebook_search(text)
++ facebook_search(text)
         Search on Facebook (https://facebook.com)
 
         Parameters
@@ -138,7 +138,7 @@ ext)
 
         text:- The query which you want to search about (str)
 
-+imdb_search(text)
++ imdb_search(text)
         Search on imdb (https://www.imdb.com)
 
         Parameters
@@ -157,7 +157,7 @@ le, location)
 
         location:- Location (str)
 
-+linkedin_job_sea
++ linkedin_job_sea
 arch(text)
         Search on Linkedin (https://www.linkedin.com/jobs)
 
@@ -167,7 +167,7 @@ arch(text)
         text:- The query which you want to search about (str)
 
     linkedin_learnin
-ng_search(text)
+g_search(text)
         Search on Linkedin (https://www.linkedin.com/learning)
 
         Parameters
@@ -175,7 +175,7 @@ ng_search(text)
 
         text:- The query which you want to search about (str)
 
-+linkedin_people_
++ linkedin_people_
 _search(first_name, last_name)
         Search on Linkedin (https://www.linkedin.com/people-guest/pub)
 
@@ -186,7 +186,7 @@ _search(first_name, last_name)
 
         last_name:- Last Name of the person (str)
 
-+nytimes_search(text
++ nytimes_search(text
 )
         Search on New York Times (https://www.nytimes.com)
 
@@ -198,7 +198,7 @@ _search(first_name, last_name)
     open(link)
         Opening Webpage Through webbrowser module
 
-+pinterest_search
++ pinterest_search
 h(text)
         Search on Pinterest (https://in.pinterest.com)
 
@@ -207,7 +207,7 @@ h(text)
 
         text:- The query which you want to search about (str)
 
-+play_store_searc
++ play_store_searc
 ch(text)
         Search on Play Store (https://play.google.com/store)
 
@@ -216,7 +216,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+python_search(text)
++ python_search(text)
         Search on Python.org (www.python.org)
 
         Parameters
@@ -224,7 +224,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+quora_search(text)
++ quora_search(text)
         Search on Quora (www.quora.com)
 
         Parameters
@@ -232,7 +232,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+reddit_search(text)
++ reddit_search(text)
         Search on Reddit (https://www.reddit.com)
 
         Parameters
@@ -240,7 +240,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+tripadvisor_search(text)
++ tripadvisor_search(text)
         Search on Tripadvisor (https://www.tripadvisor.com)
 
         Parameters
@@ -248,7 +248,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+twitter_search(text
++ twitter_search(text
 )
         Search on twitter (https://twitter.com)
 
@@ -257,7 +257,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+walmart_search(text
++ walmart_search(text
 )
         Search on Walmart (https://www.walmart.com)
 
@@ -266,7 +266,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+webmd_search(text)
++ webmd_search(text)
         Search on Webmd (https://www.webmd.com)
 
         Parameters
@@ -274,7 +274,7 @@ ch(text)
 
         text:- The query which you want to search about (str)
 
-+wikipedia_search
++ wikipedia_search
 h(text)
         Search on Wikipedia (https://en.m.wikipedia.org)
 
@@ -283,7 +283,7 @@ h(text)
 
         text:- The query which you want to search about (str)
 
-+youtube_search(text
++ youtube_search(text
 )
         Search on Youtube (https://www.youtube.com)
 
