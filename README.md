@@ -115,7 +115,7 @@ FUNCTIONS
 
 +  `bing_search(text)`
     
-   [Bing](www.bing.com)
+   [Bing](https://www.bing.com)
 
         Parameters
         -----------
@@ -290,7 +290,7 @@ FUNCTIONS
 
 + `python_search(text)`
 
-     [Python.org](www.python.org)
+     [Python.org](https://www.python.org)
 
         Parameters
         -----------
