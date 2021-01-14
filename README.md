@@ -300,7 +300,7 @@ FUNCTIONS
 
 + `quora_search(text)`
 
-    [Quora](www.quora.com)
+    [Quora](https://www.quora.com)
 
         Parameters
         -----------
