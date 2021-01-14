@@ -80,10 +80,10 @@ FUNCTIONS
 
 
 
-    Parameters
-    -----------
+       Parameters
+       ----------
 
-    text:- The query which you want to search about (str)
+       text:- The query which you want to search about (str)
 
 
 + `apple_search(text)`
