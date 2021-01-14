@@ -76,7 +76,7 @@ FUNCTIONS
 
 + `amazon_search(text) `
 
- [Amazon](https://www.amazon.com)
+   [Amazon](https://www.amazon.com)
 
 
 
