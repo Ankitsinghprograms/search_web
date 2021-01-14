@@ -8,7 +8,7 @@
 ### You can search on more than 25 websites very easily by just 2 lines of code.
 
 
-Websites Supported:-
+### Websites Supported:-
 
 	1.Google -google_search("Python")
 	2.Youtube -youtube_search("Python")
@@ -38,7 +38,7 @@ Websites Supported:-
 	26CNN -cnn_search("Us elections 2020")
 
 
-    `Code` is to simple Just 2 lines of `Code`.
+`Code` is to simple Just 2 lines of `Code`.
 
 ```python
 from search_web import *
