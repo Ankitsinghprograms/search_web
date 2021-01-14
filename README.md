@@ -2,10 +2,10 @@
 
 
 
-This module will Help You to Search on Different Websites like Google,Youtube,etc.
+##This module will Help You to Search on Different Websites like Google,Youtube,etc.
 
 
-You can search on more than 25 websites very easily by just 2 lines of code.
+###You can search on more than 25 websites very easily by just 2 lines of code.
 
 
 Websites Supported:-
@@ -49,7 +49,8 @@ pysearch.google_search("How to Search via pysearch module Python")
 FUNCTIONS
 
 * amazon_search(text)
-		Search on amazon (https://www.amazon.com)
+
+		earch on amazon)[https://www.amazon.com]
 
         Parameters
         -----------
@@ -57,7 +58,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
 
 + apple_search(text)
-        Search on Apple (https://www.apple.com/us)
+
+        Search on Apple(https://www.apple.com/us)
 
 
         Parameters
