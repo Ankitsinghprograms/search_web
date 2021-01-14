@@ -2,7 +2,8 @@
 
 
 
-![Pypi](https://mobile.twitter.com/pypi/photo)
+
+
 
 
 
