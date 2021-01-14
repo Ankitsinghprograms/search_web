@@ -48,9 +48,10 @@ pysearch.google_search("How to Search via pysearch module Python")
 
 FUNCTIONS
 
-* amazon_search(text)
+* amazon_search(text) 
+        [GitHub](http://github.com)
 
-        [Search on Amazon](https://www.amazon.com)
+        [Amazon](https://www.amazon.com)
 
         Parameters
         -----------
