@@ -80,10 +80,10 @@ FUNCTIONS
 
 
 
-        Parameters
-        -----------
+    Parameters
+    -----------
 
-        text:- The query which you want to search about (str)
+    text:- The query which you want to search about (str)
 
 
 + `apple_search(text)`
@@ -322,8 +322,8 @@ FUNCTIONS
         text:- The query which you want to search about (str)
         
 
-+ `walmart_search(text`
-)
++ `walmart_search(text)`
+
     [Walmart](https://www.walmart.com)
 
         Parameters
