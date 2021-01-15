@@ -1,7 +1,7 @@
 # search_web
 
 
-
+[![Downloads](https://pepy.tech/badge/search-web)](https://pepy.tech/project/search-web)
 
 
 
