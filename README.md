@@ -10,7 +10,7 @@
 ## This module will Help You to Search on Different Websites like Google,Youtube,etc.
 
 
-### You can search on more than 25 websites very easily by just 2 lines of code. 
+### You can search on more than 25 websites 😲😲 very easily by just 2 lines of code. 😉😉
 
 
 
@@ -31,7 +31,7 @@ pip install search-web
 ```python
 from search_web import *
 search_web.google_search("How to search via search-web module")
-
+```
 
 
 
@@ -387,14 +387,19 @@ FUNCTIONS
 
         text:- The query which you want to search about (str)
         
+	
+	
         
-        
+ ### Fotter
         
 **Version-(0.0.1)-First Release**
 
 
 **License-MIT**
 
+
+
+## New Releases 🆕🆕
 
 
 
@@ -404,6 +409,8 @@ New websites that would be added in Version (0.0.2) are:-
 
 1. [GitHub](https://www.github.com) 
 2. [Stack Overflow](https://www.stackoverflow.com")
+
+
 Suggestions for more websites are welcome in pull request or issues 🤗🤗.
 
 
