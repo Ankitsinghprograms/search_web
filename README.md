@@ -14,6 +14,10 @@
 
 
 
+### Short Description (If you are in hurry 🏃🏻‍♂️🏃🏻‍♂️🏃🏻‍♂️)
+
+
+
 ` So First Install the module `
 
 ```python 
@@ -22,6 +26,16 @@ pip install search-web
 
 ```
 
+`Code` is so simple Just 2 lines of `Code`.
+
+```python
+from search_web import *
+search_web.google_search("How to search via search-web module")
+
+
+
+
+### Long Description
 
 ### Websites Supported:-
 
@@ -80,12 +94,8 @@ pip install search-web
 
 
 
-`Code` is so simple Just 2 lines of `Code`.
 
-```python
-from search_web import *
-search_web.google_search("How to Search via search_web module Python")
-```
+
 
 
 FUNCTIONS
