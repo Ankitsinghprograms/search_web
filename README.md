@@ -18,7 +18,7 @@
 
 
 
-` So First Install the module `
+` So First Install the module 📂📂`
 
 ```python 
 
@@ -26,7 +26,7 @@ pip install search-web
 
 ```
 
-`Code` is so simple Just 2 lines of `Code`.
+`Code` is so simple Just 2 lines of `Code`👩‍💻👨‍💻.
 
 ```python
 from search_web import *
