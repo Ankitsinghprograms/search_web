@@ -32,7 +32,29 @@ Websites Supported:-
 	23.ESPN -espn_search("Cricket")
 	24.Webmd -webmd_search("Python")
 	25.New York Times -nytimes_search("Covid-19")
-	26CNN -cnn_search("Us elections 2020")
+	26.CNN -cnn_search("Us elections 2020")
+	27.Best Buy- `bestbuy_search("Python")`
+	28.Britanica-`britannica_search("Anything")`
+	29.Bussiness Insider- `businessinsider__search("News")`
+	30.Dictionary- `dictionary_search("graphics")`
+	31.Gamepedia- `gamepedia_search("Minecraft")`
+	32.Github- `github_search("ankitsinghprograms")`
+	33.Home depot- `homedepot_search("News")`
+	34.MapQuest- `mapquest_search("California,USA")`
+	35.Mayo clinic- `mayoclinic_search("What to do during Fever")`
+	36.Medical News Today- `medicalnewstoday_search("COVID-19")`
+	37.Merriam Webster- `merriam_webster_search("News")`
+	38.Microsoft- `microsoft_search("Mac Book Pro")`
+	39.NIH- `nih_search("Usa News")`
+	40.Quizlet- `quizlet_search("Std 8")`
+	41.Rotten Tomatoes- `rottentomatoes_search("Water Bottle")`
+	42.Target- `target_search("Anything")`
+	43.Urban Dictionary- `urban_dictionary_search("LOL meaing in urban dictionary")`
+	44.USA Today- `usatoday_search("USA election")`
+	45.Yahoo- `yahoo_search("C++")`
+	46.Zillow- `zillow_search("News")`
+
+
 
 
 ========== Example ===========
@@ -49,8 +71,10 @@ google_search("How to Search via pysearch module Python")
 
 =========== Version ===========
 
-+++++++++++(0.0.1)+++++++++++
-~~First Relese
+++ 0.1.3 (19/01/2021)+++++++++
+
+~~ Bug Fixes
+
 ++++++++++++++++++++++++++++
 
 =============================
@@ -75,7 +99,6 @@ Country-India
 
 
 """
-
 
 
 
@@ -672,6 +695,454 @@ def cnn_search(text):
 	cnn=f'https://edition.cnn.com/search?q={text}'
 	
 	open(cnn)
+	
+	
+
+
+# Functions Added in Version- 0.1.2 (19/01/2021) are below:-
+
+
+def github_search(text):
+	
+	
+	"""
+	Search on github (https://github.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	github="https://github.com/search?q={text}"
+	
+	open(github)
+
+
+
+
+
+def merriam_webster_search(text):
+	
+	
+	"""
+	Search on merriam_webster (https://www.merriam-webster.com/dictionary/)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	merriam_webster=f"https://www.merriam-webster.com/dictionary/{text}"
+	
+	open(merriam_webster)
+
+
+
+
+
+def gamepedia_search(text):
+	
+	
+	"""
+	Search on gamepedia (https://www.gamepedia.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	gamepedia=f'https://www.gamepedia.com/search?search={text}'
+	
+	open(gamepedia)
+
+
+
+
+
+def microsoft_search(text):
+	
+	
+	"""
+	Search on Microsoft (https://www.microsoft.com/en-in/)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	microsoft=f"https://www.microsoft.com/en-in/search/result.aspx?{text}"
+	
+	open(microsoft)
+
+
+
+
+
+def target_search(text):
+	
+	
+	"""
+	Search on target (https://www.target.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	target=f'https://www.target.com/s?searchTerm={text}'
+	
+	open(target)
+
+
+
+
+
+def homedepot_search(text):
+	
+	
+	"""
+	Search on homedepot (https://www.homedepot.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	homedepot=f"https://www.homedepot.com/s/{text}"
+	
+	open(homedepot)
+
+
+
+
+
+def nih_search(text):
+	
+	
+	"""
+	Search on NIH (https://search.nih.gov)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	nih=f"https://search.nih.gov/search?utf8=%E2%9C%93&affiliate=nih&query={text}&commit=Search"
+	
+	open(nih)
+
+
+
+
+
+def rottentomatoes_search(text):
+	
+	
+	"""
+	Search on Rotten Tomatoes (https://www.rottentomatoes.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	rottentomatoes=f"https://www.rottentomatoes.com/search?search={text}"
+	
+	open(rottentomatoes)
+
+
+
+
+
+def quizlet_search(text):
+	
+	
+	"""
+	Search on Quizlet (https://quizlet.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	quizlet=f"https://quizlet.com/subject/{text}/"
+	
+	open(quizlet)
+
+
+
+
+
+def mapquest_search(text):
+	
+	
+	"""
+	Search on Mapquest (https://www.mapquest.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	mapquest=f"https://www.mapquest.com/search/results?query={text}"
+	
+	open(mapquest)
+
+
+
+
+
+def britannica_search(text):
+	
+	
+	"""
+	Search on Britannica (https://www.britannica.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	britannica=f"https://www.britannica.com/search?query={text}"
+	
+	open(britannica)
+
+
+
+
+
+def businessinsider_search(text):
+	
+	
+	"""
+	Search on Business Insider (https://www.businessinsider.in)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	businessinsider=f"https://www.businessinsider.in/searchresult.cms?query={text}"
+	
+	open(businessinsider)
+
+
+
+
+
+def dictionary_search(text):
+	
+	
+	"""
+	Search on Dictionary (https://www.dictionary.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	dictionary=f"https://www.dictionary.com/browse/{text}/s=t"
+	
+	open(dictionary)
+
+
+
+
+
+def zillow_search(text):
+	
+	
+	"""
+	Search on Zillow (https://www.zillow.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	zillow=f"https://www.zillow.com/homes/{text}/"
+	
+	open(zillow)
+
+
+
+
+
+def mayoclinic_search(text):
+	
+	
+	"""
+	Search on Mayoclinic (https://www.mayoclinic.org)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	mayoclinic=f'https://www.mayoclinic.org/search/search-results?q={text}'
+	
+	open(mayoclinic)
+
+
+
+
+
+def bestbuy_search(text):
+	
+	
+	"""
+	Search on Bestbuy (https://www.bestbuy.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	bestbuy=f"https://www.bestbuy.com/site/searchpage.jsp?st={text}"
+	
+	open(bestbuy)
+
+
+
+
+
+def yahoo_search(text):
+	
+	
+	"""
+	Search on Yahoo (https://in.search.yahoo.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	yahoo=f"https://in.search.yahoo.com/search?p={text}"
+	
+	open(yahoo)
+
+
+
+
+
+def usatoday_search(text):
+	
+	
+	"""
+	Search on USA Today (https://www.usatoday.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	usatoday=f"https://www.usatoday.com/search/?q={text}"
+	
+	open(usatoday)
+
+
+
+
+
+def medicalnewstoday_search(text):
+	
+	
+	"""
+	Search on Medical News Today (https://www.medicalnewstoday.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	medicalnewstoday=f"https://www.medicalnewstoday.com/search?q={text}"
+	
+	open(medicalnewstoday)
+
+
+
+
+
+def urban_dictionary_search(text):
+	
+	
+	"""
+	Search on Urban Dictionary (https://www.urbandictionary.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	urban_dictionary="https://www.urbandictionary.com/define.php?term={text}"
+	
+	open(urban_dictionary)
+
+
+
+
+
+def usatoday_search(text):
+	
+	
+	"""
+	Search on USA Today (https://www.usnews.com)
+	
+	Parameters
+	-----------
+	
+	text:- The query which you want to search about (str)
+	
+	"""
+	
+	usanews=f"https://www.usnews.com/search?q={text}"
+	
+	open(usanews)
+
+
+
+
+
 
 
 
