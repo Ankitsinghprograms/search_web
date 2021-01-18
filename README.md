@@ -36,7 +36,7 @@ search_web.google_search("How to search via search-web module")
 
 ### New Updates
 
-0.0.2(18/01/2021)
+**0.0.2**  (18/01/2021)
 
 + Bug fixes
 
