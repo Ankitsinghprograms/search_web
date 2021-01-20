@@ -1,4 +1,4 @@
-# search_web **(0.1.3)**
+# search_web
 
 
 
@@ -27,15 +27,16 @@ pip install search-web
 
 ```python
 
-from pysearch import *
-google_search("How to Search via pysearch module Python")
+from search_web import *
+google_search("How to search via search_web module python")
+
 
 ```
 
 
 ### New Updates
 
-**0.1.3**  (19/01/2021)
+**0.1.5**  (21/01/2021)
 
 + Bug Fixes
 
@@ -638,7 +639,7 @@ FUNCTIONS
  ### Fotter
  
         
-**Version-(0.0.1)-First Release**
+**Version-(0.1.5)-Bug Fixes**
 
 
 **License-MIT**
