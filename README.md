@@ -1,6 +1,7 @@
 # search_web
 
 
+[![Downloads](https://static.pepy.tech/badge/search-web)](https://pepy.tech/project/search-web)
 
 ## This module will Help You to Search on Different Websites like Google,Youtube,etc.
 
